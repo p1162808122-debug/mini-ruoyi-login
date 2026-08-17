@@ -1,0 +1,10 @@
+/SSD2/pengzhipeng/backend/mini-ruoyi-login/src/main/java/com/pengzhipeng/miniruoyi/MiniRuoYiApplication.java
+/SSD2/pengzhipeng/backend/mini-ruoyi-login/src/main/java/com/pengzhipeng/miniruoyi/common/ApiResponse.java
+/SSD2/pengzhipeng/backend/mini-ruoyi-login/src/main/java/com/pengzhipeng/miniruoyi/config/ShiroConfig.java
+/SSD2/pengzhipeng/backend/mini-ruoyi-login/src/main/java/com/pengzhipeng/miniruoyi/controller/AuthController.java
+/SSD2/pengzhipeng/backend/mini-ruoyi-login/src/main/java/com/pengzhipeng/miniruoyi/domain/User.java
+/SSD2/pengzhipeng/backend/mini-ruoyi-login/src/main/java/com/pengzhipeng/miniruoyi/dto/ProfileResponse.java
+/SSD2/pengzhipeng/backend/mini-ruoyi-login/src/main/java/com/pengzhipeng/miniruoyi/mapper/UserMapper.java
+/SSD2/pengzhipeng/backend/mini-ruoyi-login/src/main/java/com/pengzhipeng/miniruoyi/security/JsonAuthenticationFilter.java
+/SSD2/pengzhipeng/backend/mini-ruoyi-login/src/main/java/com/pengzhipeng/miniruoyi/security/UserRealm.java
+/SSD2/pengzhipeng/backend/mini-ruoyi-login/src/main/java/com/pengzhipeng/miniruoyi/service/UserService.java
