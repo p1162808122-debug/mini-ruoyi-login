@@ -23,7 +23,6 @@
         <maven.compiler.release></maven.compiler.release>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <shiro.version>2.2.0</shiro.version>
         <mybatis-spring-boot.version>4.0.1</mybatis-spring-boot.version>
     </properties>
 
@@ -48,43 +47,6 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-spring</artifactId>
-            <classifier>jakarta</classifier>
-            <version>${shiro.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.shiro</groupId>
-                    <artifactId>shiro-core</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.shiro</groupId>
-                    <artifactId>shiro-web</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-core</artifactId>
-            <classifier>jakarta</classifier>
-            <version>${shiro.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-web</artifactId>
-            <classifier>jakarta</classifier>
-            <version>${shiro.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.shiro</groupId>
-                    <artifactId>shiro-core</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
 
