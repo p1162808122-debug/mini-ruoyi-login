@@ -33,7 +33,7 @@
 <main>
   <section id="login-view" class="card">
     <h1>最小 RuoYi 登录</h1>
-    <p class="subtle">只用一个账号，把前端、Shiro、Controller、Service、Mapper 和数据库完整串起来。</p>
+    <p class="subtle">只用一个账号，把前端、Controller、Service、Mapper、MyBatis 和 MySQL 完整串起来。</p>
     <form id="login-form">
       <label for="username">用户名</label>
       <input id="username" name="username" value="admin" autocomplete="username" required>
@@ -47,8 +47,8 @@
 
   <section id="dashboard-view" class="card" hidden>
     <h2>登录成功，完整流程已跑通</h2>
-    <p class="subtle">这就是项目唯一的登录后界面。页面能看到下面的数据，说明后端已经查库、验密、建 Session 并完成权限检查。</p>
-    <div class="flow">浏览器 → Shiro 过滤器 → Controller → Shiro → Realm → Service → Mapper → H2<br>浏览器 ← JSON ← Controller ← Shiro ← Realm ← Service ← Mapper ← H2 查询结果</div>
+    <p class="subtle">页面能看到下面的数据，说明后端已经完成 MySQL 查询、密码校验、Session 建立和权限检查。</p>
+    <div class="flow">浏览器 → Controller → Service → Mapper / MyBatis → MySQL<br>浏览器 ← JSON ← Controller ← Service ← Mapper / MyBatis ← MySQL 查询结果</div>
     <div class="facts">
       <div class="fact"><small>用户 ID</small><strong id="user-id"></strong></div>
       <div class="fact"><small>显示名称</small><strong id="display-name"></strong></div>
